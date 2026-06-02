@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-magazine-pink: #e85d75;
+  --color-magazine-gold: #c9a84c;
+  --color-magazine-navy: #1a2744;
+  --color-magazine-cream: #faf7f2;
+  --color-magazine-ink: #2d2d2d;
+  --color-magazine-mint: #7ecba1;
+  --color-magazine-sky: #6eb5d6;
+  --font-display: "Playfair Display", "Noto Serif SC", serif;
+  --font-body: "Inter", "Noto Sans SC", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-magazine-ink);
+  background-color: var(--color-magazine-cream);
+}
+
+/* Magazine-style gradient overlay for cards */
+.card-overlay {
+  background: linear-gradient(180deg, transparent 40%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+/* Decorative divider */
+.magazine-rule {
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-magazine-gold), transparent);
+}
+
+/* Drop cap for journal content */
+.drop-cap :first-child::first-letter {
+  font-size: 3.5em;
+  float: left;
+  line-height: 0.8;
+  padding-right: 0.1em;
+  font-family: var(--font-display);
+  color: var(--color-magazine-pink);
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: var(--font-body);
+  border-radius: 0.5rem;
+}
+
+/* Print-friendly */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+}

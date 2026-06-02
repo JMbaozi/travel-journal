@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm view *)",
+      "Bash(npm create *)",
+      "Bash(cd /tmp)",
+      "Bash(rm -rf travel-journal-scaffold)",
+      "Read(//tmp/**)",
+      "Read(//tmp/travel-journal-scaffold/**)",
+      "Bash(cp /tmp/travel-journal-scaffold/.gitignore .)",
+      "Bash(cp /tmp/travel-journal-scaffold/index.html .)",
+      "Bash(cp /tmp/travel-journal-scaffold/package.json .)",
+      "Bash(cp /tmp/travel-journal-scaffold/tsconfig.json .)",
+      "Bash(cp /tmp/travel-journal-scaffold/tsconfig.app.json .)",
+      "Bash(npm install *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/main.ts)",
+      "Bash(npm run *)"
+    ]
+  }
+}
