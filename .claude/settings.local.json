@@ -18,7 +18,8 @@
       "Bash(npx vite *)",
       "Bash(curl -s http://localhost:5173)",
       "Bash(curl -s http://localhost:5173/src/main.ts)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:4173/data/journal.json)"
     ]
   }
 }

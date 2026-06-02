@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "exportedAt": "2026-06-02T01:48:39.972Z",
+  "trips": [
+    {
+      "id": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "title": "青岛的海",
+      "destination": "青岛，中国",
+      "startDate": "2025-05-02",
+      "endDate": "2025-05-05",
+      "currency": "CNY",
+      "tags": [
+        "青岛",
+        "海"
+      ],
+      "coverImage": "https://img.yucol.uk/2026/06/4d55e931aa614eea811e278781367adc.webp",
+      "companion": "和父母一起",
+      "budget": 1300,
+      "createdAt": "2026-06-02T01:32:42.548Z",
+      "updatedAt": "2026-06-02T01:32:42.549Z"
+    }
+  ],
+  "dayEntries": [
+    {
+      "id": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "dayNumber": 1,
+      "date": "2025-05-02",
+      "content": "",
+      "mood": "🤩",
+      "weather": "☀️",
+      "location": {
+        "lat": 36.05826960064889,
+        "lng": 120.31539761865062,
+        "name": "Pinned Location"
+      },
+      "expenses": [
+        {
+          "id": "044c44e5-bc16-473d-8533-108bb1a54859",
+          "category": "food",
+          "amount": 1300,
+          "currency": "CNY",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-06-02T01:33:33.577Z",
+      "updatedAt": "2026-06-02T01:33:33.577Z"
+    }
+  ],
+  "photos": [
+    {
+      "id": "14e3b176-f1b6-4cef-8769-3ae0d9580213",
+      "entryId": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "url": "https://img.yucol.uk/2026/06/f9b9fb82f35152a93889aec48ffbf9cd.webp",
+      "createdAt": "2026-06-02T01:33:01.238Z"
+    },
+    {
+      "id": "29ac4254-a27b-4fc7-8036-8094609bc32c",
+      "entryId": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "url": "https://img.yucol.uk/2026/06/2db1993bf106af636876197508dcc914.webp",
+      "createdAt": "2026-06-02T01:32:51.497Z"
+    },
+    {
+      "id": "317aa9ea-b3bd-4fda-88e2-4d71c5ed5806",
+      "entryId": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "url": "https://img.yucol.uk/2026/06/67973aa0a9d7a9c407bf914dd4deb6a2.webp",
+      "createdAt": "2026-06-02T01:33:03.637Z"
+    },
+    {
+      "id": "8a7ccaa8-5ac0-4ac8-a53b-118ea77f0cea",
+      "entryId": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "url": "https://img.yucol.uk/2026/06/baadc2d6f66000f80425d2291a6c96e9.webp",
+      "createdAt": "2026-06-02T01:32:58.457Z"
+    },
+    {
+      "id": "d925c208-ad01-481d-82a8-3be4b464c30f",
+      "entryId": "8299ee93-6771-4cf4-a73e-7725eb500884",
+      "tripId": "af2eaa7b-b1b2-443b-a0ad-75a2a89f5421",
+      "url": "https://img.yucol.uk/2026/06/305a84363b48c701223fc4c5892de10e.webp",
+      "createdAt": "2026-06-02T01:32:55.727Z"
+    }
+  ],
+  "settings": null
+}
